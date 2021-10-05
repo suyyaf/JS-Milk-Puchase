@@ -1,0 +1,30 @@
+
+function getMilk(money) {
+  console.log("leaveHouse");
+  console.log("moveRight");
+  console.log("moveRight");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveRight");
+  console.log("moveRight");
+
+  var bottle = money / 1.5; 
+  bottle = Math.floor(bottle);
+  var balance = money - (bottle*1.5);
+
+  console.log("Buy "  + bottle + " bottles");
+  console.log("moveLeft");
+  console.log("moveLeft");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveLeft");
+  console.log("moveLeft");
+  console.log("enterHouse");
+  console.log("Master, I brought back " + bottle + " bottles of Milk with balance of $" + balance)
+}
+
+getMilk(20);
